@@ -1,12 +1,233 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="img/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Aura - stickers collection</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+    <header class="header">
+        <div class="container header__container">
+            <a class="logo">
+                <img src="img/logo.svg" alt="Логотип компании Aura">
+            </a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link">Авторы</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Коллекция</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Сервисы</a></li>
+                </ul>
+            </nav>
+            <button class="header__btn">Кошелёк</button>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero__title">Площадка для реализации криптостикеров</h1>
+            </div>
+            <div class="hero__buttons">
+                <a href="#" class="hero__btn hero__btn--fill">Купить</a>
+                <a href="#" class="hero__btn hero__btn--stroke">Стать автором</a>
+            </div>
+        </section>
+        <section class="auction-bet-section">
+            <div class="container">
+                <h2 class="title auction-bet-section__title">
+                    Аукцион
+                    <span class="auction-bet-section__state">Live auction</span>
+                </h2>
+                <div class="auction-bet-section__content">
+                    <div class="auction-bet-section__image">
+                        <img src="img/sticker-1.png" alt="Стикер из Ведьмака">
+                    </div>
+                    <div class="auction-bet-section__info">
+                        <div class="auction-owner auction-bet-section__owner">
+                            <img src="img/avatar-img.png" alt="Аватарка владельца Serge" class="auction-owner__avatar">
+                            <span class="auction-owner__nickname">Serge_VM222</span>
+                        </div>
+                        <h3 class="auction-bet-section__subtitle">Witcherrr_3 (xml_t5)</h3>
+                        <div class="auction-bet-section__props">
+                            <div class="auction-bet">
+                                <span class="auction-bet__caption">Ставка:</span>
+                                <span class="auction-bet__price">0.10 ETH</span>
+                                <span class="auction-bet__price-dollars">$351.24</span>
+                            </div>
+                            <div class="auction-timer">
+                                <span class="auction-timer__caption">Ставка:</span>
+                                <div class="auction-timer__content">
+                                    <div class="auction-timer__part">
+                                        <span class="auction-timer__value">01</span>
+                                        <span class="auction-timer__text">Час</span>
+                                    </div>
+                                    <div class="auction-timer__part">
+                                        <span class="auction-timer__value">48</span>
+                                        <span class="auction-timer__text">Мин</span>
+                                    </div>
+                                    <div class="auction-timer__part">
+                                        <span class="auction-timer__value">47</span>
+                                        <span class="auction-timer__text">Сек</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn--fill auction-bet-section__btn">Сделать ставку</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="auction">
+            <div class="container">
+                <h2 class="auction__title">Другие аукционы</h2>
+                <ul class="auction__list">
+                    <li class="auction__item">
+                        <article class="auction__product">
+                            <div class="auction-product__image">
+                                <img src="img/auction-1.png" alt="Изображение стикера Alien (green) e_e">
+                            </div>
+                            <div class="auction-product__info">
+                                <div class="auction-owner auction__owner">
+                                    <img src="img/avatar-1.jpg" alt="Аватарка владельца Frank.Nagval" class="auction-owner__avatar">
+                                    <span class="auction-owner__nickname">Frank.Nagval</span>
+                                </div>
+                                <h3 class="auction-product__title">Alien (green) e_e</h3>
+                                <span class="auction-product__price">0.02 ETH</span>
+                                <span class="auction-product__timer">03 часа 25 мин 23 сек</span>
+                        </article>
+                    </li>
+                    <li class="auction__item">
+                        <article class="auction__product">
+                            <div class="auction-product__image">
+                                <img src="img/auction-2.png" alt="Изображение стикера CoBRRRa">
+                            </div>
+                            <div class="auction-product__info">
+                                <div class="auction-owner auction__owner">
+                                    <img src="img/avatar-2.jpg" alt="Аватарка владельца CPH_777" class="auction-owner__avatar">
+                                    <span class="auction-owner__nickname">CPH_777</span>
+                                </div>
+                                <h3 class="auction-product__title">CoBRRRa</h3>
+                                <span class="auction-product__price">0.5 ETH</span>
+                                <span class="auction-product__timer">15 мин 03 сек</span>
+                        </article>
+                    </li>
+                    <li class="auction__item">
+                        <article class="auction__product">
+                            <div class="auction-product__image">
+                                <img src="img/auction-3.png" alt="Изображение стикера Diamonds (4)">
+                            </div>
+                            <div class="auction-product__info">
+                                <div class="auction-owner auction__owner">
+                                    <img src="img/avatar-3.jpg" alt="Аватарка владельца sUpah_kiLLah" class="auction-owner__avatar">
+                                    <span class="auction-owner__nickname">sUpah_kiLLah</span>
+                                </div>
+                                <h3 class="auction-product__title">Diamonds (4)</h3>
+                                <span class="auction-product__price">0.008 ETH</span>
+                                <span class="auction-product__timer">23 часа 05 мин 08 сек</span>
+                        </article>
+                    </li>
+                    <li class="auction__item">
+                        <article class="auction__product">
+                            <div class="auction-product__image">
+                                <img src="img/auction-4.png" alt="Изображение стикера Holofobia-2">
+                            </div>
+                            <div class="auction-product__info">
+                                <div class="auction-owner auction__owner">
+                                    <img src="img/avatar-4.jpg" alt="Аватарка владельца ttgs" class="auction-owner__avatar">
+                                    <span class="auction-owner__nickname">ttgs</span>
+                                </div>
+                                <h3 class="auction-product__title">Holofobia-2</h3>
+                                <span class="auction-product__price">1.0 ETH</span>
+                                <span class="auction-product__timer">01 час 15 мин 55 сек</span>
+                        </article>
+                    </li>
+                    <li class="auction__item">
+                        <article class="auction__product">
+                            <div class="auction-product__image">
+                                <img src="img/auction-5.png" alt="Изображение стикера Baby Yoda 1">
+                            </div>
+                            <div class="auction-product__info">
+                                <div class="auction-owner auction__owner">
+                                    <img src="img/avatar-5.jpg" alt="Аватарка владельца Peppppe22" class="auction-owner__avatar">
+                                    <span class="auction-owner__nickname">Peppppe22</span>
+                                </div>
+                                <h3 class="auction-product__title">Baby Yoda 1</h3>
+                                <span class="auction-product__price">0.2 ETH</span>
+                                <span class="auction-product__timer">01 час 28 мин 11 сек</span>
+                        </article>
+                    </li>
+                    <li class="auction__item">
+                        <article class="auction__product">
+                            <div class="auction-product__image">
+                                <img src="img/auction-6.png" alt="Изображение стикера alien vs. predator (01)">
+                            </div>
+                            <div class="auction-product__info">
+                                <div class="auction-owner auction__owner">
+                                    <img src="img/avatar-6.jpg" alt="Аватарка владельца 1300e1440" class="auction-owner__avatar">
+                                    <span class="auction-owner__nickname">1300e1440</span>
+                                </div>
+                                <h3 class="auction-product__title">alien vs. predator (01)</h3>
+                                <span class="auction-product__price">0.09 ETH</span>
+                                <span class="auction-product__timer">08 часов 44 мин 43 сек</span>
+                        </article>
+                    </li>
+                    <li class="auction__item">
+                        <article class="auction__product">
+                            <div class="auction-product__image">
+                                <img src="img/auction-7.png" alt="Изображение стикера IAMDECEPTICON">
+                            </div>
+                            <div class="auction-product__info">
+                                <div class="auction-owner auction__owner">
+                                    <img src="img/avatar-7.jpg" alt="Аватарка владельца 1300e1440" class="auction-owner__avatar">
+                                    <span class="auction-owner__nickname">1300e1440</span>
+                                </div>
+                                <h3 class="auction-product__title">IAMDECEPTICON</h3>
+                                <span class="auction-product__price">0.1 ETH</span>
+                                <span class="auction-product__timer">55 мин 18 сек</span>
+                        </article>
+                    </li>
+                    <li class="auction__item">
+                        <article class="auction__product">
+                            <div class="auction-product__image">
+                                <img src="img/auction-8.png" alt="Изображение стикера Ghostbusterrrrrrrs">
+                            </div>
+                            <div class="auction-product__info">
+                                <div class="auction-owner auction__owner">
+                                    <img src="img/avatar-8.jpg" alt="Аватарка владельца ttgs" class="auction-owner__avatar">
+                                    <span class="auction-owner__nickname">ttgs</span>
+                                </div>
+                                <h3 class="auction-product__title">Ghostbusterrrrrrrs</h3>
+                                <span class="auction-product__price">0.09 ETH</span>
+                                <span class="auction-product__timer">18 мин 12 сек</span>
+                        </article>
+                    </li>
+                </ul>
+                <div class="btn-center">
+                    <button class="btn btn--stroke auction__more">Все аукционы</button>
+                </div>
+            </div>
+        </section>
+        <section class="new">
+            <div class="container">
+                <h2 class="new__title title">Новые стикеры</h2>
+                <div class="new__slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="new__stickers"> 
+                                <img src="img/new1.png" alt="Изображение стикера">
+                                <img src="img/new2.png" alt="Изображение стикера">
+                                <img src="img/new3.png" alt="Изображение стикера">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>
