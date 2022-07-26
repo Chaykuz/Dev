@@ -1,0 +1,902 @@
+@media (max-width: 1360px) {
+  .works-info {
+    max-width: calc((100% - 437px));
+  }
+
+  .works-photo {
+    max-width: calc((100% - 437px));
+  }
+
+  .wrapper-footer {
+    justify-content: space-around;
+  }
+
+  .footer-text-block {
+    display: none;
+  }
+}
+
+@media (max-width: 1140px) {
+  .header-menu-adaptive {
+    display: inline-block;
+    position: relative;
+    margin-right: auto;
+    width: 30px;
+    height: 3px;
+    color: var(--main-text-color);
+    background-color: var(--main-text-color);
+  }
+
+  .header-menu-adaptive::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    width: 30px;
+    height: 3px;
+    background-color: var(--main-text-color);
+  }
+
+  .header-menu-adaptive::after {
+    content: "";
+    position: absolute;
+    bottom: 8px;
+    width: 30px;
+    height: 3px;
+    background-color: var(--main-text-color);
+  }
+
+  .header-list {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .sec-off {
+    padding: 32px 0 50px;
+  }
+
+  .header {
+    padding: 26px 0;
+  }
+
+  .header-menu-adaptive {
+    margin-bottom: 2px;
+  }
+
+  .header-logo {
+    max-width: 150px;
+    max-height: 48px;
+  }
+
+  /* swiper  */
+
+  .wrapper-background {
+    background-image: url("../img/swiper-table-1.jpg");
+    padding-bottom: 61px;
+  }
+
+  .special-text-swiper {
+    padding-top: 156px;
+    padding-left: 73px;
+    max-width: 854px;
+  }
+
+  .swaiper-title {
+    margin-bottom: 16px;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 73px;
+  }
+
+  .swaiper-text {
+    margin-bottom: 60px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .btn-swiper {
+    font-size: 23.4581px;
+    line-height: 29px;
+  }
+
+  /* about  */
+
+  .about-title {
+    margin-bottom: 9px;
+  }
+
+  .about-text {
+    max-width: 100%;
+    margin-bottom: 61px;
+  }
+
+  .special-content {
+    flex-direction: column;
+  }
+
+  .special-block {
+    width: 100%;
+  }
+
+  .special-block:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .special-block:first-child {
+    margin-bottom: 28px;
+    height: 640px;
+  }
+
+  .special-item:not(:last-child) {
+    margin-bottom: 24px;
+  }
+
+  .more-text {
+    margin-right: 180px;
+  }
+
+  .nu1 {
+    background-image: url("../img/nu1-table.jpg");
+    max-width: 100%;
+  }
+
+  .nu2 {
+    background-image: url("../img/nu2-table.png");
+    background-size: 20%;
+    background-position: calc(0% + 74px) center;
+  }
+
+  .nu3 {
+    background-image: url("../img/nu3-table.png");
+    background-size: 20%;
+    background-position: calc(0% + 77px) center;
+  }
+
+  .benefits-text {
+    max-width: 95%;
+  }
+
+  .works-list {
+    margin-bottom: 53px;
+  }
+
+  .works-info {
+    margin-right: 21px;
+    padding-right: 14px;
+    padding-bottom: 14px;
+    max-width: 50%;
+  }
+
+  .works-text {
+    margin-bottom: 25px;
+  }
+
+  .works-photo {
+    padding-top: 8px;
+    max-width: 50%;
+  }
+
+  /* faq  */
+
+  .faq {
+    padding-top: 18px;
+    padding-bottom: 78px;
+  }
+
+  .faq-title {
+    margin-bottom: 35px;
+  }
+
+  .questions__link {
+    padding: 29px 0;
+  }
+
+  .questions__header {
+    width: 84%;
+    font-size: 20px;
+  }
+
+.questions__svg {
+  transform: translateX(15px);
+}
+
+  /* footer  */
+
+  .left-footer-links {
+    max-width: none;
+    margin-right: 129px;
+    padding-left: 0;
+  }
+
+  .wrapper-footer {
+    justify-content: flex-start;
+  }
+
+  .form-name {
+    width: 542px;
+  }
+
+  .form-mail {
+    width: 542px;
+  }
+
+  .form-comment {
+    width: 542px;
+  }
+
+  .form-btn {
+    margin-right: 26px;
+    padding: 19px 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .wrapper-works {
+    flex-direction: column-reverse;
+  }
+
+  .works-info {
+    max-width: 100%;
+  }
+
+  .works-photo {
+    max-width: 100%;
+  }
+
+  .wrapper-footer {
+    padding-left: 50px;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .footer-list-links {
+    display: none;
+  }
+
+  .footer-form {
+    margin-bottom: 50px;
+  }
+
+  .form-comment {
+    width: 540px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 35px;
+  }
+
+  .sec-off {
+    padding-top: 34px;
+  }
+
+  .header {
+    padding-top: 11px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 20px;
+  }
+
+  .header-menu-adaptive {
+    margin-bottom: 5px;
+  }
+
+  .header-menu-adaptive::before {
+    top: 10px;
+  }
+
+  .header-menu-adaptive::after {
+    bottom: 10px;
+  }
+
+  .search-btn {
+    margin-right: -6px;
+  }
+
+  .top-swiper {
+    padding-left: 15px;
+  }
+
+  .wrapper-background {
+    margin-right: 15px;
+    background-image: url(../img/nu1-mobile-table.jpg);
+  }
+
+  .special-text-swiper {
+    padding-left: 38px;
+  }
+
+  .swaiper-title {
+    font-size: 50px;
+    line-height: 61px;
+  }
+
+  .swaiper-text {
+    margin-bottom: 58px;
+    padding-right: 48px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .about-title {
+    padding-left: 15px;
+  }
+
+  .about-text {
+    padding-left: 15px;
+  }
+
+  .special-content {
+    padding-left: 15px;
+  }
+
+  .special-more-footer {
+    padding: 26px;
+  }
+
+  .special-item:not(:last-child) {
+    margin-bottom: 37px;
+  }
+
+  .more-text {
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 46px;
+  }
+
+  .btn-benefits {
+    margin-right: 13px;
+  }
+
+  .special-content {
+    margin-right: 15px;
+  }
+
+  .special-block:first-child {
+    margin-bottom: 39px;
+  }
+
+  .nu2 {
+    background-image: url(../img/nu2-tablemob.png);
+    background-size: 18%;
+    background-position: calc(0% + 36px) center;
+  }
+
+  .nu3 {
+    background-image: url(../img/nu3-tablemob.png);
+    background-size: 18%;
+    background-position: calc(0% + 36px) center;
+  }
+
+  .card {
+    padding: 5.3% 6% 4.2% 25.3%;
+  }
+
+  .works-title {
+    padding-left: 15px;
+  }
+
+  .works-list {
+    padding-left: 15px;
+    margin-bottom: 40px;
+  }
+
+  .works-item:not(:last-child) {
+    margin-right: 155px;
+  }
+
+  .wrapper-works {
+    padding-left: 15px;
+  }
+
+  .works-info {
+    margin-right: 0;
+    padding-right: 0;
+  }
+
+  .works-photo {
+    margin-bottom: 34px;
+  }
+
+  .faq {
+    margin-bottom: 83px;
+    padding-bottom: 0;
+  }
+
+  .faq-title {
+    padding-left: 15px;
+  }
+
+  .questions__link {
+    padding: 29px 0;
+  }
+
+  .questions__header {
+    width: 91%;
+    padding-left: 15px;
+    padding-right: 45px;
+  }
+
+  .questions__svg {
+    transform: translateX(-15px);
+}
+
+  .wrapper-footer {
+    padding-left: 14px;
+  }
+
+  .left-footer-links {
+    padding-left: 0;
+  }
+
+  .footer-form {
+    margin-bottom: 51px;
+  }
+
+  .form-comment {
+    margin-bottom: 34px;
+  }
+
+  .form-btn {
+    margin-right: 22px;
+    padding: 20px 42px;
+  }
+}
+
+@media (max-width: 690px) {
+  .works-item:not(:last-child) {
+    margin-right: 75px;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+  .form-name {
+    width: 100%;
+  }
+
+  .form-mail {
+    width: 100%;
+  }
+
+  .form-comment {
+    width: 100%;
+  }
+}
+
+@media (max-width: 470px) {
+  .second-title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+
+  .top-swiper {
+    margin-bottom: 30px;
+  }
+
+  .wrapper-background {
+    background-image: url(../img/nu1-mob.jpg);
+  }
+
+  .special-text-swiper {
+    padding: 80px 40px;
+  }
+
+  .swaiper-title {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .swaiper-text {
+    padding-right: 0;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+  }
+
+  .swiper-block-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+
+  .btn-swiper {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .about-text {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .special-block:first-child {
+    height: auto;
+  }
+
+  .special-mob-photo {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .special-more-footer {
+    padding: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    background: transparent;
+    color: var(--main-text-color);
+  }
+
+  .more-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .btn-benefits {
+    padding: 11px 30px;
+    color: var(--main-color);
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .special-border {
+    border: transparent;
+  }
+
+  .nu1 {
+    background-image: none;
+  }
+
+  .nu2 {
+    background-image: url("../img/nu2-mob.png");
+    background-position: left top;
+  }
+
+  .nu3 {
+    background-image: url("../img/nu3-mob.png");
+    background-position: left top;
+  }
+
+  .card {
+    padding: 0;
+    padding-top: 60px;
+  }
+
+  .works-item:not(:last-child) {
+    margin-right: 15%;
+  }
+
+  .works-text-btn {
+    padding: 11px 14px;
+    padding-bottom: 14px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .works-doc-btn {
+    padding: 11px 14px;
+    padding-bottom: 14px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .benefits-title {
+    font-weight: 500;
+  }
+
+  .questions__header {
+    padding: 0;
+    width: 70%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .left-footer-links {
+    margin: 0;
+    border-top: 1px solid #595959;
+    padding-top: 16px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .form-button {
+    position: relative;
+    flex-direction: column;
+  }
+
+  .form-btn {
+    margin-bottom: 10px;
+  }
+
+  .form__checkbox {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    width: 100%;
+    padding: 0 5px;
+  }
+
+  .sec-off {
+    padding-bottom: 26px;
+  }
+
+  .header {
+    padding-left: 5px;
+    padding-bottom: 0;
+  }
+
+  .header-container {
+    margin-bottom: 12px;
+  }
+
+  .header-logo {
+    margin-right: 56px;
+    width: 41%;
+  }
+
+  .top-swiper {
+    padding-left: 5px;
+  }
+
+  .wrapper-background {
+    display: flex;
+    padding-bottom: 0;
+    padding: 10px;
+    max-height: 308px;
+  }
+
+  .special-text-swiper {
+    padding: 0 5px;
+    padding-top: 50px;
+  }
+
+  .swaiper-title {
+    margin-bottom: 7px;
+  }
+
+  .swaiper-text {
+    margin-bottom: 33px;
+  }
+
+  .swiper-block-button {
+    margin-bottom: 53px;
+  }
+
+  .btn-swiper {
+    padding: 12px 26px;
+    padding-right: 28px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .nu2 {
+    background-size: 64px 49px;
+  }
+
+  .nu3 {
+    background-size: 64px 49px;
+  }
+
+
+
+  .about-title {
+    padding-left: 5px;
+    margin-bottom: 17px;
+  }
+
+  .about-text {
+    padding-left: 5px;
+    padding-right: 16px;
+  }
+
+  .special-content {
+    padding-left: 5px;
+  }
+
+  .special-mob-photo {
+    margin-bottom: 12px;
+  }
+
+  .more-text {
+    padding-left: 5px;
+    padding-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .btn-benefits {
+    padding: 10px 41px;
+  }
+
+  .benefits-title {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 4px;
+  }
+
+  .benefits-text {
+    font-size: 14px;
+    line-height: 28px;
+    max-width: 100%;
+  }
+
+  .special-item:not(:last-child) {
+    margin-bottom: 35px;
+  }
+
+  .special-block:first-child {
+    margin-bottom: 33px;
+}
+
+  .card {
+    padding-top: 60px;
+  }
+
+  .works-title {
+    padding-left: 5px;
+    margin-bottom: 21px;
+  }
+
+  .works-list {
+    padding-left: 5px;
+    margin-bottom: 4px;
+  }
+
+  .works-item-btn {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .wrapper-works {
+    padding-left: 5px;
+  }
+
+  .works-text-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .works-photo {
+    margin-bottom: 18px;
+  }
+
+  .works-text {
+    padding-right: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .works-text-btn {
+    padding: 12px 44px;
+    margin-right: 6px;
+  }
+
+  .works-doc-btn {
+    padding: 11px 30px;
+  }
+
+  .faq {
+    padding-top: 21px;
+    margin-bottom: 56px;
+  }
+
+  .faq-title {
+    padding-left: 5px;
+    margin-bottom: 16px;
+  }
+
+  .questions__link {
+    padding: 29px 7px;
+    padding-right: 0;
+  }
+
+  .questions__header {
+    width: 75%;
+    margin-right: 5px;
+  }
+
+  .questions__svg {
+    width: 10%;
+  }
+
+  .footer {
+    padding-top: 33px;
+  }
+
+  .wrapper-footer {
+    padding-left: 4px;
+  }
+
+  .footer-logo {
+    width: 45%;
+  }
+
+  .footer-list-icons {
+    width: 153px;
+  }
+
+  .footer-icon > svg {
+    width: 100%;
+  }
+
+  .footer-form {
+    margin-bottom: 15px;
+  }
+
+  .form-title {
+    margin-bottom: 19px;
+  }
+
+  .form-name {
+    padding-left: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+  }
+
+  .form-mail {
+    padding-left: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+  }
+
+  .form-comment {
+    padding-left: 21px;
+    padding-bottom: 12px;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .form-button {
+    align-items: center;
+  }
+
+  .form-btn {
+    margin: 0;
+    margin-bottom: 13px;
+    padding: 12px 26px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+  }
+}

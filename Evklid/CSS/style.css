@@ -1,11 +1,10 @@
 :root {
   --main-bg-color: #fff;
-  --main-color: #FF9900;
+  --main-color: #ff9900;
   --footer-bg-color: #222;
   --main-text-color: #333333;
-  --footer-color-text: #CACACA;
-  --active-color: #E1670E;
-
+  --footer-color-text: #cacaca;
+  --active-color: #e1670e;
 }
 
 html {
@@ -18,7 +17,6 @@ html {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
-  border: 1px solid red;
 }
 
 a {
@@ -31,44 +29,52 @@ img {
 }
 
 svg {
-  transition: transform .3s ease-in-out, fill .3s ease-in-out, stroke .3s ease-in-out;
+  transition: transform 0.3s ease-in-out, fill 0.3s ease-in-out,
+    stroke 0.3s ease-in-out;
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url('../Fonts/Montserrat-Regular.woff2');
-  src: local('Montserrat'), local('Montserrat'), url('../Fonts/Montserrat-Regular.woff2') format('woff2'), url('../Fonts/Montserrat-Regular.woff') format('woff');
+  font-family: "Montserrat";
+  src: url("../Fonts/Montserrat-Regular.woff2");
+  src: local("Montserrat"), local("Montserrat"),
+    url("../Fonts/Montserrat-Regular.woff2") format("woff2"),
+    url("../Fonts/Montserrat-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url('../Fonts/Montserrat-SemiBold.woff2');
-  src: local('Montserrat'), local('Montserrat'), url('../Fonts/Montserrat-SemiBold.woff2') format('woff2'), url('../Fonts/Montserrat-SemiBold.woff') format('woff');
+  font-family: "Montserrat";
+  src: url("../Fonts/Montserrat-SemiBold.woff2");
+  src: local("Montserrat"), local("Montserrat"),
+    url("../Fonts/Montserrat-SemiBold.woff2") format("woff2"),
+    url("../Fonts/Montserrat-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url('../Fonts/Montserrat-Bold.woff2');
-  src: local('Montserrat'), local('Montserrat'), url('../Fonts/Montserrat-Bold.woff2') format('woff2'), url('../Fonts/Montserrat-Bold.woff') format('woff');
+  font-family: "Montserrat";
+  src: url("../Fonts/Montserrat-Bold.woff2");
+  src: local("Montserrat"), local("Montserrat"),
+    url("../Fonts/Montserrat-Bold.woff2") format("woff2"),
+    url("../Fonts/Montserrat-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url('../Fonts/Montserrat-ExtraBold.woff2');
-  src: local('Montserrat'), local('Montserrat'), url('../Fonts/Montserrat-ExtraBold.woff2') format('woff2'), url('../Fonts/Montserrat-ExtraBold.woff') format('woff');
+  font-family: "Montserrat";
+  src: url("../Fonts/Montserrat-ExtraBold.woff2");
+  src: local("Montserrat"), local("Montserrat"),
+    url("../Fonts/Montserrat-ExtraBold.woff2") format("woff2"),
+    url("../Fonts/Montserrat-ExtraBold.woff") format("woff");
   font-weight: 800;
   font-style: normal;
 }
 
 body {
-  min-width: 1920px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: var(--main-bg-color);
 }
 
@@ -100,7 +106,7 @@ body {
 }
 
 .btn {
-  transition: background-color .3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .btn:focus-visible,
@@ -113,8 +119,6 @@ body {
   background-color: var(--active-color);
   outline: none;
 }
-
-
 
 .second-title {
   font-style: normal;
@@ -157,8 +161,6 @@ body {
   margin-right: 85px;
 }
 
-
-
 .header-item-link {
   position: relative;
   font-style: normal;
@@ -166,11 +168,11 @@ body {
   font-size: 18px;
   line-height: 21.94px;
   color: var(--main-text-color);
-  transition: outline-offset .3s ease-in-out, color .3s ease-in-out;
+  transition: outline-offset 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .header-item-link::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   bottom: -5px;
@@ -178,7 +180,7 @@ body {
   height: 2px;
   background-color: var(--main-color);
   opacity: 0;
-  transition: opacity .3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .header-item-link:focus-visible {
@@ -199,11 +201,10 @@ body {
   opacity: 1;
 }
 
-
 .search-btn {
   stroke: var(--main-text-color);
   fill: var(--main-text-color);
-  transition: outline-offset .3s ease-in-out;
+  transition: outline-offset 0.3s ease-in-out;
 }
 
 .search-btn:focus-visible {
@@ -222,15 +223,14 @@ body {
   fill: var(--main-color);
 }
 
-
 /* swiper  */
 
 .top-swiper {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .wrapper-background {
-  background-image: url('../img/swiper1.jpg');
+  background-image: url("../img/swiper1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -274,8 +274,6 @@ body {
   text-align: center;
   padding: 24.83px 36.88px;
 }
-
-
 
 /* about */
 
@@ -323,8 +321,12 @@ body {
   margin-bottom: 30px;
 }
 
+.special-mob-photo {
+  display: none;
+}
+
 .special-border {
-  border: 1px solid #CACACA;
+  border: 1px solid #cacaca;
 }
 
 .left-item-special {
@@ -343,6 +345,7 @@ body {
 .more-text {
   margin: 0;
   margin-right: 130px;
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -351,7 +354,7 @@ body {
 
 .btn-benefits {
   color: var(--main-bg-color);
-  border: 3px solid #FF9900;
+  border: 3px solid #ff9900;
   padding: 16px 36px;
   font-weight: 700;
   font-size: 16px;
@@ -359,11 +362,11 @@ body {
 }
 
 .nu1 {
-  background-image: url('../img/nu1.jpg');
+  background-image: url("../img/nu1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 868px;
+  max-width: 868px;
 }
 
 .nu2 {
@@ -422,7 +425,7 @@ body {
   font-size: 18px;
   line-height: 22px;
   color: var(--main-text-color);
-  transition: outline-offset .3s ease-in-out, color .3s ease-in-out;
+  transition: outline-offset 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .works-item-btn:focus-visible {
@@ -443,6 +446,7 @@ body {
 }
 
 .works-info {
+  position: relative;
   max-width: 758px;
   margin-right: 142px;
 }
@@ -484,7 +488,7 @@ body {
   color: var(--main-text-color);
   border: 1px solid var(--main-text-color);
   padding: 19px 38px;
-  transition: background-color .3s ease-in-out, color .3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .works-doc-btn:focus-visible,
@@ -501,12 +505,11 @@ body {
 }
 
 
-
-
 .photo-block-works {
-  max-width: 102%;
-  max-height: 100%;
   padding-top: 1%;
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
 }
 
 /* FAQ */
@@ -519,17 +522,15 @@ body {
   margin-bottom: 39px;
 }
 
-
 .questions__link {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 29.5px 0;
-  border-top: 1px solid #CACACA;
-  border-bottom: 1px solid #CACACA;
+  border-top: 1px solid #cacaca;
+  border-bottom: 1px solid #cacaca;
   padding-top: -1px;
   position: relative;
-  font-size: 24px;
   line-height: 32px;
 }
 
@@ -554,9 +555,6 @@ body {
 .questions__link:active svg {
   transform: rotate(45deg);
 }
-
-
-
 
 .questions__header {
   font-size: 24px;
@@ -601,7 +599,7 @@ body {
   font-weight: 600;
   font-size: 18px;
   line-height: 36px;
-  transition: outline-offset .3s ease-in-out, color .3s ease-in-out;
+  transition: outline-offset 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .footer-link:focus-visible {
@@ -627,7 +625,7 @@ body {
 }
 
 .footer-icon {
-  transition: outline-offset .3s ease-in-out;
+  transition: outline-offset 0.3s ease-in-out;
 }
 
 .footer-icon:focus-visible {
@@ -637,9 +635,8 @@ body {
 }
 
 .footer-icon svg {
-  fill: #7C7C7C;
+  fill: #7c7c7c;
 }
-
 
 .footer-icon svg:hover {
   fill: var(--main-color);
@@ -711,7 +708,7 @@ body {
 }
 
 .input {
-  transition: background-color .3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .input:focus-visible,
@@ -769,12 +766,12 @@ input:active {
   transform: translateY(-50%);
 }
 
-.custom-checkbox__input:checked+.custom-checkbox__text::before {
+.custom-checkbox__input:checked + .custom-checkbox__text::before {
   background-image: url(../img/Check.svg);
   background-size: contain;
 }
 
-.custom-checkbox__input:focus-visible+.custom-checkbox__text {
+.custom-checkbox__input:focus-visible + .custom-checkbox__text {
   outline: 2px solid #fff;
 }
 
